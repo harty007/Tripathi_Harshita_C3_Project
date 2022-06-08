@@ -94,7 +94,7 @@ class RestaurantTest {
         List<String> itemsSelected = new ArrayList<String>();
         itemsSelected.add("Totamto Soupe");
         itemsSelected.add("Biryani");
-
+        
         int actualAmount = restaurant.getMenuTotalAmount(itemsSelected);
         int expectedAmount = 175;
         System.out.println(expectedAmount);
